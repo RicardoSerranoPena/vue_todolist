@@ -1,7 +1,11 @@
 <template>
-    <div>
-        <h1 class="header">ToDoList</h1>
-    </div>
+    <header class="header">
+        <h1>ToDoList</h1>
+        <div id="nav">
+          <router-link to="/">Home</router-link> |
+          <router-link to="/about">About</router-link>
+        </div>
+    </header>
 </template>
 
 <script>
